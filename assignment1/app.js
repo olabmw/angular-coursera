@@ -14,7 +14,7 @@
                 var foodItems = food.split(',');
                 var itemCount = 0;
                 foodItems.forEach(function(item) {
-                    if (item != "" && item != " "){ //Do not consider empty items!
+                    if (item != "" && item != " "){
                         itemCount++;
                     }
                 });
